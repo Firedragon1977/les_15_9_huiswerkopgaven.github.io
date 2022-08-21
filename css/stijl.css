@@ -1,0 +1,55 @@
+@charset "utf-8";
+/* De gehele pagina met uitzondering van elementen van één achtergrondkleur voorzien. */
+body{
+	background-color: lightgray;
+	font-family: 'MuseoModerno', cursive;}
+/* Alle elementen tussen body-begintag en -eindtag centreren. En ook een witruimte creëren aan zowel linker- als rechterzijde. */
+header, footer, h1, p, div, form{
+	width: 95%;
+	margin: 0px auto;}
+/* De inhoud heeft een padding van minimaal 5px. */
+body, header, footer{
+	padding: 20px;}
+/* Aangepaste koptekst. */
+header{
+	background-color: lightyellow;
+	height: 105px;
+	border-radius: 50px 25px;
+	margin-bottom: 20px;}
+/* Aangepaste voettekst. */
+footer{
+	text-align: center;
+	font-size: 14px;
+	font-weight: bold;}
+/* Aangepaste grootste HTML-koptekst. */
+h1{
+	text-align: center;}
+/* Aangepaste tekstgrootte. */
+div, form, p{
+	font-size: 18px;}
+/* Vetgedrukte teksten. */
+a.vetgedrukt, td.vetgedrukt{
+	font-weight: bold;}
+/* Aangepaste buttons. */
+li.button{
+	display:inline-block;
+	background: yellow;
+	width: 200px;
+	padding:10px 0px;
+	margin: 20px 20px 0px 20px;
+	border: 3px solid black;
+	border-radius: 50px 25px;
+	box-shadow: 5px 5px 5px gray;}
+li.button:hover{
+	background-color: darkgray;
+	text-decoration: none;}
+ul.uitlijning{
+	margin: 0px;
+	padding: 0px;
+	text-align: center;}
+a.tekst{
+	text-decoration: none;
+	color: black;
+	font-size: 22px;}
+a.tekst:hover{
+	color: yellow;}
